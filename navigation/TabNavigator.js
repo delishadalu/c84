@@ -32,7 +32,7 @@ const BottomTabNavigator = () => {
         backgroundColor: 'teal',
         borderTopWidth:2
       }}>
-      
+       <Tab.Screen name="Feed" component={Feed} />
       <Tab.Screen name="CreateStory" component={CreateStory} />
     </Tab.Navigator>
   );

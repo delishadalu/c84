@@ -79,7 +79,7 @@ export default class Feed extends Component {
             story telling app
           </Text>
         </View>
-        <View style={{ flex: 0.8, marginTop: 10 }}>
+        <View style={{ flex: 0.9, marginTop: 10 }}>
           <ScrollView>
             <Image
               style={{ width: '100%', height: 200, resizeMode: 'contain' }}
